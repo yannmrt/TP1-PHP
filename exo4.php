@@ -1,0 +1,11 @@
+<?php
+
+// Valeurs de A, B et C
+$A = '5x²';
+$B = '1x';
+$C = '7';
+
+$equation = $B*$B-4*$A*$C;
+
+echo 'L\'équation est: '.$B.'² - 4 x (' .$A.' x '.$C.') = 0';
+echo '<div>Résultat de l\'équation: ' . $equation.'</div>';

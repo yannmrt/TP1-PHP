@@ -1,0 +1,28 @@
+<?php
+
+if(isset($_GET['text'])) {
+    $text = htmlspecialchars($_GET['text']);
+
+    if(!empty($text)) {
+        echo '<p style="color:#78006c">'.$text.'</p>';
+    } else {
+        echo 'Veuillez entrer du texte avant de valider';
+    }
+}
+
+?>
+<!DOCTYPE html>
+<html>
+<head> 
+   <title>Exercices 5</title>
+</head>
+<body>
+
+<form method="GET">
+   <input type="text" name="text" />
+   <input type="submit" />
+</form>
+
+
+</body>
+</html>
