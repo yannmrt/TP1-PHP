@@ -13,8 +13,9 @@
 <a href="exo3.php"><p>Exercice 3</p></a>
 <a href="exo4.php"><p>Exercice 4</p></a>
 <a href="exo5.php"><p>Exercice 5</p></a>
-<a href="exo6.php"><p>Exercice 62</p></a>
+<a href="exo6.php"><p>Exercice 6</p></a>
 <a href="exo7.php"><p>Exercice 7</p></a>
+<a href="exofinal.php"><p>Exercice final</p></a>
 
 </body>
 </html>
