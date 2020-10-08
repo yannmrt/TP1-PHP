@@ -1,6 +1,8 @@
 <?php
 
+// On vérifie si POST de valider existe
 if(isset($_POST['valider'])) {
+    // Si oui ont quelques vérifications
     $text = htmlspecialchars($_POST['text']);
 
     if(!empty($text)) {

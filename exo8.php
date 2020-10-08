@@ -53,3 +53,10 @@ if(isset($_POST['destroy'])) {
 
 </body>
 </html>
+
+<?php 
+
+// code source de la page 
+highlight_file(__FILE__);
+
+?>

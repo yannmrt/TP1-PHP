@@ -44,3 +44,6 @@ if(isset($_POST['valider'])) {
 
 </body>
 </html>
+
+<?php // code source de la page 
+highlight_file(__FILE__); ?>

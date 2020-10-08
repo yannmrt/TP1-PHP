@@ -19,6 +19,7 @@ $tableau = array(
     )
 );
 
+// On fait une boucle pour afficher les valeurs dans un tableau
 echo '<table border="1"><tr>';
 
 foreach($tableau as $key => $value) {
@@ -30,3 +31,6 @@ foreach($tableau as $key => $value) {
 }
 
 echo '</table></tr>';
+
+// code source de la page 
+highlight_file(__FILE__);

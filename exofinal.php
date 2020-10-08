@@ -5,10 +5,14 @@ session_start();
 $usernameSite = "julien";
 $mdpSite = "1234";
 
+
+// On vérifie si POST de valider est présent
 if(isset($_POST['valider'])) {
+    // Si oui ont continue
     $username = htmlspecialchars($_POST['username']);
     $password = htmlspecialchars($_POST['password']);
 
+    // On vérifie que les champs ne sont pas vide 
     if(!empty($username) AND !empty($password)) {
         if($username == $usernameSite) {
             if($password == $mdpSite) {
@@ -24,12 +28,14 @@ if(isset($_POST['valider'])) {
     }
 }
 
+// Si POST de logout est présent on detruit la session
 if(isset($_POST['logout'])) {
     $_SESSION = array();
     session_destroy();
     unset($_SESSION);
 }
 
+// Si SESSION username existe alors l'utlisateur est connecter 
 if(isset($_SESSION['username'])) {
     echo 'Bienvenue ' . $_SESSION['username'];
     echo '<form method="post"><input type="submit" name="logout" value="Déconnexion" />';
@@ -58,3 +64,6 @@ if(isset($_SESSION['username'])) {
     <?php
 
 }
+
+// code source de la page 
+highlight_file(__FILE__);

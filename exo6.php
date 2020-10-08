@@ -1,6 +1,8 @@
 <?php
 
+// on vérifie si GET de text existe 
 if(isset($_GET['text'])) {
+    //Si oui on continue
     $text = htmlspecialchars($_GET['text']);
 
     if(!empty($text)) {
@@ -26,3 +28,10 @@ if(isset($_GET['text'])) {
 
 </body>
 </html>
+
+<?php 
+
+// code source de la page 
+highlight_file(__FILE__);
+
+?>

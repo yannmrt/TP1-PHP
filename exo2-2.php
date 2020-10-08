@@ -7,6 +7,8 @@ $tableau = array(
     'mdp' => 'mdp1'
 );
 
+
+// On créer la boucle pour généré le tableau et afficher les données
 echo '<table border="1"><tr>';
 
 for($i=1;$i<=1;$i++) {
