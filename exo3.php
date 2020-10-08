@@ -21,24 +21,12 @@ $tableau = array(
 
 echo '<table border="1"><tr>';
 
-for($i=1;$i<=3;$i++) {
-    echo '<tr>';
-    for($j=0;$j<=5;$j++) {
+foreach($tableau as $key => $value) {
+    foreach($value as $valeur) {
         echo '<td>';
-        echo $tableau['nom'][$j];
+        echo $valeur;
         echo '</td>';
     }
-    for($j=1;$j<=1;$j++) {
-        echo '<td>';
-        echo $tableau['prenom'][$j];
-        echo '</td>';
-    }
-    for($j=1;$j<=1;$j++) {
-        echo '<td>';
-        echo $tableau['mdp'][$j];
-        echo '</td>';
-    }
-    echo '</tr>';
 }
 
 echo '</table></tr>';
