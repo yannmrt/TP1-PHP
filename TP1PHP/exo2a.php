@@ -10,3 +10,5 @@ for($i=0;$i<=4;$i++) {
 
 // code source de la page 
 highlight_file(__FILE__);
+?>
+<?php echo '<a href="."><button>Retour en arrière</button></a>'; ?>

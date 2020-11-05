@@ -28,3 +28,5 @@ if(isset($_POST['valider'])) {
 
 </body>
 </html>
+
+<?php echo '<a href="."><button>Retour en arrière</button></a>'; ?>

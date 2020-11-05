@@ -13,3 +13,5 @@ echo '<div>Résultat de l\'équation: ' . $equation.'</div>';
 
 // code source de la page 
 highlight_file(__FILE__);
+?>
+<?php echo '<a href="."><button>Retour en arrière</button></a>'; ?>

@@ -35,3 +35,5 @@ if(isset($_GET['text'])) {
 highlight_file(__FILE__);
 
 ?>
+
+<?php echo '<a href="."><button>Retour en arrière</button></a>'; ?>
